@@ -3,7 +3,6 @@ library(jsonlite)
 library(readxl)
 library(tidyverse)# Read the Excel file
 # Replace "your_file.xlsx" with your actual file path
-
 # I got this dataset from https://www.kaggle.com/datasets/danofer/zipcodes-county-fips-crosswalk?resource=download
 # it may have some out of date information, but it is a good starting point
 data <- read_excel("ZIP-COUNTY-FIPS_2017-06.xlsx")
